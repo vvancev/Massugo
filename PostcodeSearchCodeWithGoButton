@@ -1,0 +1,364 @@
+  <!-- BootStrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- location css -->
+<style>
+/**
+* @author http://safecaches.com
+* handle all the styling for the elements of the location select
+**/
+
+  
+     span#space, .space {height: 20px;} 
+ 
+  span.twitter-typeahead {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -9.15px;
+}
+
+.form-control {
+  height:100%;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999
+}
+
+.tt-menu {
+  width: 100%;
+  margin: 12px 0;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+  padding: 3px 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.tt-suggestion:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0097cf;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+
+}
+
+.tt-suggestion p {
+  margin: 0;
+}
+
+
+.stylish-input-group .input-group-addon {
+  background: white !important;
+}
+
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+
+label.btn span {
+/*font-size: 1.5em ;*/
+}
+
+label input[type="radio"] ~ i.fa.fa-circle-o{
+  color: #c8c8c8;    display: inline;
+}
+label input[type="radio"] ~ i.fa.fa-check-circle-o{
+  display: none;
+}
+label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+  display: none;
+}
+label input[type="radio"]:checked ~ i.fa.fa-check-circle-o{
+  color: #7AA3CC;    display: inline;
+}
+label:hover input[type="radio"] ~ i.fa {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label.active{
+  color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 2em;
+text-align: left;
+white-space: nowrap;
+vertical-align: top;
+cursor: pointer;
+background-color: none;
+border: 0px solid
+#c8c8c8;
+border-radius: 3px;
+color: #c8c8c8;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+  
+</style>
+
+<div class="container-fluid">
+  <div class="row hidden">
+    <div class="col-sm-4 col-sm-offset-4">
+      <span>Select the therapist gender:</span>
+    </div>
+  </div> <!-- Row label -->
+  <div class="row hidden">
+      <div class="col-sm-4 col-sm-offset-5">
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn active">
+             <input type="radio" name='gender2' value='male' checked><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-check-circle-o fa-2x"></i><span> Male</span>
+           </label>
+           <label class="btn">
+             <input type="radio" name='gender2' value='female'><i class="fa fa-circle-o fa-2x"></i><i class="fa fa-check-circle-o fa-2x"></i><span> Female</span>
+           </label>
+        </div>
+      </div>
+  </div> <!-- Row gender radio button -->
+  <div class="row">
+     <div class="col-md-8 col-md-offset-2">
+       <div class="input-group">
+         <span class="input-group-addon" id="area-search-icon">
+           <span class="glyphicon glyphicon-search"></span>
+         </span>
+         <input type="text" id="area-search-input" class="typeahead form-control" placeholder="Suburb or Postcode" aria-describedby="area-search-icon">
+       </div><!-- /.input group -->
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+     <div class="row">
+    <div class="space col-md-2 col-md-offset-5">
+      <span id="space">
+        <p style="color:#fff;">Book Now</p>
+        </span>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5">
+      <span id="timelyButton"></span>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+   
+  <div class="row hidden" id="unavailable-service-row-div">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="alert alert-info" role="alert">This area is currently not serviced by Massugo therapists, please send us an inquiry for more information</div>
+    </div><!-- /.col -->
+  </div><!-- /.row -->
+</div><!-- /.container-fluid -->
+
+  <!-- JQuery -->
+  <script   src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
+
+  <!-- Boostrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Typeahead -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/bloodhound.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.jquery.min.js" crossorigin="anonymous"></script>
+
+  <!-- getimely -->
+  <script id="timelyScript" src="https://book.gettimely.com/widget/book-button.js"> </script>
+
+  <!-- Location -->
+  <script type="text/javascript">
+/**
+* @param the raw csv in string format
+* @param the delimiter
+* @return a two dimension array with the first dimension being the object
+* see http://www.bennadel.com/blog/1504-ask-ben-parsing-csv-strings-with-javascript-exec-regular-expression-command.htm
+**/
+function CSVToArray( strData, strDelimiter ) {
+  strDelimiter = (strDelimiter || ",");
+  var objPattern = new RegExp(
+    (
+      // Delimiters.
+      "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
+      // Quoted fields.
+      "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+      // Standard fields.
+      "([^\"\\" + strDelimiter + "\\r\\n]*))"
+    ),
+    "gi"
+  );
+  var arrData = [[]];
+  var arrMatches = null;
+
+  while (arrMatches = objPattern.exec( strData )) {
+
+    var strMatchedDelimiter = arrMatches[ 1 ];
+    if (
+      strMatchedDelimiter.length &&
+      (strMatchedDelimiter != strDelimiter)
+    ) {
+      arrData.push( [] );
+    }
+
+    if (arrMatches[ 2 ]) {
+      var strMatchedValue = arrMatches[ 2 ].replace(
+        new RegExp( "\"\"", "g" ),
+        "\""
+      );
+    } else {
+      // We found a non-quoted value.
+      var strMatchedValue = arrMatches[ 3 ];
+    }
+    arrData[ arrData.length - 1 ].push( strMatchedValue );
+  }
+  // Return the parsed data.
+  return( arrData );
+}
+
+/**
+* @param the locations double dimension array
+* @return the json version labeled by the header row
+**/
+function locationsArrayToJson(locations, locationTherapistGender) {
+
+  var locationsJson = "[";
+  var isFirst = true;
+  for (var row = 1; row < locations.length; row++) {
+
+    //if ( locations[row][2] != locationTherapistGender ) { continue; }
+    //if ( locations[row][6] == 'NoService' ) { continue; }
+
+    if (!isFirst) { locationsJson += ", "; }
+    else { isFirst = false; }
+
+    locationsJson += "{"
+    + '"'+ locations[0][1] + '": ' + '"' + locations[row][1] + '"'
+    + ', "' + locations[0][2] + '": ' + '"' + locations[row][2] + '"'
+    + ', "' + locations[0][6] + '": ' + '"' + locations[row][6] + '"'
+    + "}";
+  }
+  locationsJson += "]";
+
+  //console.log(locationsJson);
+
+  return (locationsJson);
+}
+
+  </script>
+  <script type="text/javascript">
+  /**
+* @do remove the gettimelyButton
+**/
+function removeGetTimelyButton() {
+  console.log($('#timelyButton+a'));
+    $('#timelyButton+a').remove();
+}
+
+/**
+* @do add onclick event handler to button and trigger the modal display
+**/
+$(".bookButton").click(function() {
+  $('#bookModal').modal('toggle');
+});
+
+
+/**
+*@param an 2D array of location
+*@do setup the typeahead
+**/
+function setupTypeAhead() {
+  var url = 'https://raw.githubusercontent.com/vvancev/Massugo/master/AURefTable.csv';
+  $.ajax({
+      url: url,
+      type: 'GET',
+      success: function (data) {
+          var locations = CSVToArray(data);
+          var therapistGender = $('input[name=gender2]:checked').val();
+
+          // careful row 0 of the CSV contains the headers
+          var locationsJsonArray = $.parseJSON(locationsArrayToJson(locations,
+                                                therapistGender));
+
+          var locationsBloodHound = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.obj.whitespace(locations[0][1], locations[0][2]),
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            local: locationsJsonArray
+          });
+
+          $('.typeahead').typeahead(null, {
+            name: 'location',
+            display: function(suggestion) {
+              return suggestion["Suburb"] + ' (' + suggestion["Post Code"] + ')';
+            },
+            source: locationsBloodHound
+          });
+
+          $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+
+            removeGetTimelyButton();
+
+            if (suggestion['Timely Location Code'] == 'NoService') {
+              $('#unavailable-service-row-div').removeClass( 'hidden') ;
+              return;
+            }
+
+            $('#unavailable-service-row-div').addClass( 'hidden' );
+            var bookingButton = new timelyButton('massugo', {
+                                              "buttonId": "timelyButton",
+                                              "location": suggestion['Timely Location Code'],
+                                              "imgSrc":"https://massugo-uat.squarespace.com/s/Go-Button.JPG"});
+          });
+
+      }
+  });
+}
+
+/**
+* @do add change handler on the therapist gender radio
+**/
+$('input[name=gender2]').change( function() {
+  removeGetTimelyButton();
+  $('.typeahead').typeahead('destroy');
+  $('input.typeahead').val('');
+  setupTypeAhead();
+} );
+
+/**
+* @init the typeahead suggestion
+**/
+setupTypeAhead();
+
+  </script>
