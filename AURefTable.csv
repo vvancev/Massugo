@@ -6029,7 +6029,7 @@ AU,4211,Clagiraba,Queensland,QLD,GOLD COAST,NoService,,,-27.9939,153.2424,4
 AU,4211,Nerang DC,Queensland,QLD,,NoService,,,-28.0195,153.2946,3
 AU,4211,Advancetown,Queensland,QLD,GOLD COAST,NoService,,,-28.0667,153.2667,4
 AU,4211,Nerang BC,Queensland,QLD,,NoService,,,-28.0195,153.2946,3
-AU,4211,Carrara,Queensland,QLD,GOLD COAST,NoService,GCC,,-28.0215,153.3664,4
+AU,4211,Carrara,Queensland,QLD,GOLD COAST,65969,GCC,,-28.0215,153.3664,4
 AU,4211,Binna Burra,Queensland,QLD,,NoService,,,-28.0195,153.2946,3
 AU,4211,Southern Lamington,Queensland,QLD,,NoService,,,-28.0195,153.2946,3
 AU,4212,Hope Island,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.8704,153.3516,4
@@ -6039,18 +6039,18 @@ AU,4212,Sanctuary Cove,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.8875,153.346
 AU,4213,Austinville,Queensland,QLD,GOLD COAST,NoService,,,-28.1545,153.3092,4
 AU,4213,Neranwood,Queensland,QLD,,NoService,,,-28.1167,153.3,4
 AU,4213,Bonogin,Queensland,QLD,GOLD COAST,NoService,,,-28.1393,153.353,4
-AU,4213,Mudgeeraba,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0833,153.3667,4
+AU,4213,Mudgeeraba,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0833,153.3667,4
 AU,4213,Tallai,Queensland,QLD,GOLD COAST,NoService,,,-28.0641,153.3259,4
 AU,4213,Springbrook,Queensland,QLD,GOLD COAST,NoService,,,-28.1358,153.3017,4
-AU,4213,Worongary,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.05,153.35,4
-AU,4214,Ashmore,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9888,153.3765,4
+AU,4213,Worongary,Queensland,QLD,GOLD COAST,65968,GCS,,-28.05,153.35,4
+AU,4214,Ashmore,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9888,153.3765,4
 AU,4214,Arundel Dc,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9631,153.3656,3
-AU,4214,Molendinar,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9741,153.3607,4
+AU,4214,Molendinar,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9741,153.3607,4
 AU,4214,Arundel,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9377,153.363,4
 AU,4214,Parkwood,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9546,153.363,4
 AU,4214,Arundel Bc,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9631,153.3656,3
 AU,4214,Ashmore City,Queensland,QLD,,NoService,,,-27.9638,153.3658,3
-AU,4215,Southport,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9667,153.4,4
+AU,4215,Southport,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9667,153.4,4
 AU,4215,Australia Fair,Queensland,QLD,,NoService,,,-27.9553,153.3991,3
 AU,4215,Labrador,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.944,153.3982,4
 AU,4215,Southport BC,Queensland,QLD,,NoService,,,-27.9553,153.3991,3
@@ -6062,48 +6062,48 @@ AU,4216,Paradise Point,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.8866,153.393
 AU,4216,Coombabah,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9107,153.3709,4
 AU,4216,Biggera Waters,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9324,153.4002,4
 AU,4216,Runaway Bay,Queensland,QLD,GOLD COAST,NoService,GCN,,-27.9139,153.3977,4
-AU,4217,Main Beach,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9788,153.4266,4
-AU,4217,Benowa,Queensland,QLD,GOLD COAST,NoService,GCC,,-28.0167,153.4,4
-AU,4217,Isle Of Capri,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9996,153.4093,3
-AU,4217,Bundall,Queensland,QLD,GOLD COAST,NoService,GCC,,-28.0111,153.4048,4
-AU,4217,Surfers Paradise,Queensland,QLD,GOLD COAST,NoService,GCC,,-28.0027,153.43,4
-AU,4217,Chevron Island,Queensland,QLD,GOLD COAST,NoService,GCC,,-27.9996,153.4093,3
+AU,4217,Main Beach,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9788,153.4266,4
+AU,4217,Benowa,Queensland,QLD,GOLD COAST,65969,GCC,,-28.0167,153.4,4
+AU,4217,Isle Of Capri,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9996,153.4093,3
+AU,4217,Bundall,Queensland,QLD,GOLD COAST,65969,GCC,,-28.0111,153.4048,4
+AU,4217,Surfers Paradise,Queensland,QLD,GOLD COAST,65969,GCC,,-28.0027,153.43,4
+AU,4217,Chevron Island,Queensland,QLD,GOLD COAST,65969,GCC,,-27.9996,153.4093,3
 AU,4217,Bundall BC,Queensland,QLD,,NoService,,,-28.0023,153.4153,3
 AU,4217,Bundall DC,Queensland,QLD,,NoService,,,-28.0023,153.4153,3
 AU,4217,Gold Coast Mc,Queensland,QLD,,NoService,,,-28.0023,153.4153,3
-AU,4218,Mermaid Beach,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0441,153.4347,4
-AU,4218,Nobby Beach,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0396,153.4217,3
-AU,4218,Broadbeach,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0278,153.4334,4
-AU,4218,Q Supercentre,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0396,153.4217,3
-AU,4218,Mermaid Waters,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0396,153.4217,3
-AU,4218,Broadbeach Waters,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0396,153.4217,3
-AU,4218,Pacific Fair,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0396,153.4217,3
-AU,4219,West Burleigh,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1167,153.4333,4
-AU,4220,Burleigh Waters,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0895,153.4341,3
-AU,4220,Miami,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0717,153.4416,4
-AU,4220,Burleigh Town,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0895,153.4341,3
-AU,4220,Burleigh Heads,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1,153.45,4
+AU,4218,Mermaid Beach,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0441,153.4347,4
+AU,4218,Nobby Beach,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0396,153.4217,3
+AU,4218,Broadbeach,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0278,153.4334,4
+AU,4218,Q Supercentre,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0396,153.4217,3
+AU,4218,Mermaid Waters,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0396,153.4217,3
+AU,4218,Broadbeach Waters,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0396,153.4217,3
+AU,4218,Pacific Fair,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0396,153.4217,3
+AU,4219,West Burleigh,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1167,153.4333,4
+AU,4220,Burleigh Waters,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0895,153.4341,3
+AU,4220,Miami,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0717,153.4416,4
+AU,4220,Burleigh Town,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0895,153.4341,3
+AU,4220,Burleigh Heads,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1,153.45,4
 AU,4220,Burleigh DC,Queensland,QLD,,NoService,,,-28.0859,153.4458,3
-AU,4221,Palm Beach,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1167,153.4667,4
-AU,4221,Elanora,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1358,153.4493,4
+AU,4221,Palm Beach,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1167,153.4667,4
+AU,4221,Elanora,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1358,153.4493,4
 AU,4222,Griffith University,Queensland,QLD,,NoService,,,-28.1235,153.4442,1
 AU,4223,Currumbin Valley,Queensland,QLD,GOLD COAST,NoService,,,-28.2081,153.3942,4
-AU,4223,Currumbin,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1333,153.4667,4
-AU,4223,Currumbin Dc,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1947,153.4129,3
-AU,4223,Currumbin Waters,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1386,153.4725,3
-AU,4224,Tugun,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.15,153.5,4
-AU,4225,Coolangatta,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1667,153.5333,4
-AU,4225,Bilinga,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1667,153.5167,4
-AU,4226,Clear Island Waters,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.059,153.3872,3
-AU,4226,Robina,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0775,153.3857,4
+AU,4223,Currumbin,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1333,153.4667,4
+AU,4223,Currumbin Dc,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1947,153.4129,3
+AU,4223,Currumbin Waters,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1386,153.4725,3
+AU,4224,Tugun,Queensland,QLD,GOLD COAST,65968,GCS,,-28.15,153.5,4
+AU,4225,Coolangatta,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1667,153.5333,4
+AU,4225,Bilinga,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1667,153.5167,4
+AU,4226,Clear Island Waters,Queensland,QLD,GOLD COAST,65968,GCS,,-28.059,153.3872,3
+AU,4226,Robina,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0775,153.3857,4
 AU,4226,Robina DC,Queensland,QLD,,NoService,,,-28.0642,153.3794,3
-AU,4226,Merrimac,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0509,153.3731,4
-AU,4227,Varsity Lakes,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0894,153.4122,4
-AU,4227,Reedy Creek,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.1124,153.3964,4
+AU,4226,Merrimac,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0509,153.3731,4
+AU,4227,Varsity Lakes,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0894,153.4122,4
+AU,4227,Reedy Creek,Queensland,QLD,GOLD COAST,65968,GCS,,-28.1124,153.3964,4
 AU,4228,Tallebudgera,Queensland,QLD,GOLD COAST,NoService,,,-28.15,153.4333,4
 AU,4228,Tallebudgera Valley,Queensland,QLD,GOLD COAST,NoService,,,-28.1746,153.3777,3
-AU,4229,Bond University,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0779,153.4123,1
-AU,4230,Robina Town Centre,Queensland,QLD,GOLD COAST,NoService,GCS,,-28.0757,153.3842,1
+AU,4229,Bond University,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0779,153.4123,1
+AU,4230,Robina Town Centre,Queensland,QLD,GOLD COAST,65968,GCS,,-28.0757,153.3842,1
 AU,4270,Tamborine,Queensland,QLD,GOLD COAST,NoService,,,-27.8833,153.1333,4
 AU,4271,Eagle Heights,Queensland,QLD,GOLD COAST,NoService,,,-27.9193,153.1994,4
 AU,4272,Mount Tamborine,Queensland,QLD,GOLD COAST,NoService,,,-27.9667,153.2,
@@ -9094,7 +9094,7 @@ AU,9021,Brisbane GPO Boxes,Queensland,QLD,,NoService,,,-27.4679,153.0281,1
 AU,9022,Brisbane GPO Boxes,Queensland,QLD,,NoService,,,-27.4679,153.0281,1
 AU,9023,Brisbane GPO Boxes,Queensland,QLD,,NoService,,,-27.4679,153.0281,1
 AU,9464,Northgate Mc,Queensland,QLD,,NoService,,,-33.8816,150.9844,
-AU,9726,Gold Coast Mc,Queensland,QLD,GOLD COAST,NoService,GCC,,-33.8816,150.9844,
+AU,9726,Gold Coast Mc,Queensland,QLD,GOLD COAST,65969,GCC,,-33.8816,150.9844,
 AU,9943,Mackay,Queensland,QLD,,NoService,,,-21.1534,149.1655,4
 AU,9944,Cannonvale,Queensland,QLD,,NoService,,,-20.2768,148.6976,4
 AU,872,Fregon,South Australia,SA,ALICE SPRINGS,NoService,,,-23.7917,132.6818,
